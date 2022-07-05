@@ -5,5 +5,28 @@ body{
 
 h1 {
     font-family: 'Exo 2', sans-serif;
-    font-weight: 100;
+    font-weight: 700;
+}
+
+.botao-contato {
+    font-weight: 400;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+}
+
+/* FORMATAÇÃO CADASTRO */
+
+
+.img-fundo {
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+.fundo {
+    color: rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    z-index: 2;
 }
