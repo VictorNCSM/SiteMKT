@@ -1,0 +1,29 @@
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+        font-size: 5vw;
+    }
+
+    label {
+        font-size: 3.5vw;
+    }
+
+}
+
+
+.main-cadastro {
+    margin: 0 auto;
+
+}
+
+.geral {
+    background: rgb(6, 82, 173) !important;
+        background: linear-gradient(90deg, rgba(6, 82, 173, 1) 1%, rgba(0, 159, 255, 1) 100%);
+}
