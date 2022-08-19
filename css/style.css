@@ -73,11 +73,35 @@ span {
         height: auto;
     }
 
+    .fundo-carrossel {
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .headline {
+        z-index:3;
+    }
+
+    .headline h1{
+        z-index:3;
+    }
+
+    .botao-contato {
+        /* Formatação especial do botão de contato */
+        background: #1796CE;
+        border-radius: 1vw;
+        padding: 0 1.5vw;
+        /* Respiro para o texto */
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .link-carrossel:link{
+        text-decoration: none;
+    }
+
 /* SERVIÇOS FORMATAÇÃO */
 
-    .servicos {
-        margin: 5.5vw;
-    }
 
     .servicos-itens {
         margin: 5vw 0;
@@ -95,6 +119,10 @@ span {
 
     .img-servicos img {
         width: 70%;
+    }
+
+    .botao-orcamento {
+        background: #1796CE;
     }
 
 /* SOBRE NOS FORMATAÇÃO */
