@@ -1,7 +1,9 @@
 
 body {
     font-family: 'Exo 2', sans-serif;
-    background-color: #fff;
+    background: rgb(6, 82, 173) !important;
+    background: linear-gradient(90deg, rgba(6, 82, 173, 1) 1%, rgba(0, 159, 255, 1) 100%);
+
 }
 
 @media screen and (max-width: 550px) {
@@ -23,7 +25,3 @@ body {
 
 }
 
-.geral {
-    background: rgb(6, 82, 173) !important;
-        background: linear-gradient(90deg, rgba(6, 82, 173, 1) 1%, rgba(0, 159, 255, 1) 100%);
-}
