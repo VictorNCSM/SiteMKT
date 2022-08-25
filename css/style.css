@@ -123,6 +123,11 @@ span {
 
     .botao-orcamento {
         background: #1796CE;
+        border-radius: 10px;
+    }
+
+    .link-orcamento {
+        display: none;
     }
 
 /* SOBRE NOS FORMATAÇÃO */
@@ -142,6 +147,10 @@ span {
 
     .texto-sobre-nos h2 {
         margin: 5.5% 0 0 0;
+    }
+
+    .div-img-parceria img{
+        vertical-align: middle;
     }
 
 /* FORMATAÇÃO FOOTER */
@@ -191,6 +200,15 @@ span {
 
     .img-servicos {
         display: none;
+    }
+
+    .link-orcamento {
+        display: inline;
+        
+    }
+
+    .botao-orcamento {
+        display:none;
     }
 }
 
