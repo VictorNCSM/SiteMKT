@@ -1,0 +1,227 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+span {
+    font-size: 2vw !important;
+    font-weight: 300;
+}
+
+/* NAVBAR FORMATAÇÃO */
+    .navbar-brand { /* Formatação do Logo */
+        width: 5%;
+    }
+
+    .navbar-nav { /* Formatação da div que contém os links da navbar */
+        margin: 0 0 0 1.5vw;
+    }
+
+
+    .nav-link { /* Cada link da navbar */
+        font-size: 1.5vw;
+        margin: 0 1.2vw;
+    }
+
+
+    .bg-botao-contato { /* Formatação especial do botão de contato */
+        background: #1796CE;
+        border-radius: 1vw;
+        padding: 0 0.2vw; /* Respiro para o texto */
+        font-weight: 400;
+    }
+
+
+    .copyright {
+        font-size: 1.5vw;
+    }
+
+/* BANNER FORMATAÇÃO */
+    .banner {
+        padding: 3.5vw 0;
+    }
+
+    .banner .headline-banner {
+        font-weight: 700;
+        font-size: 3vw;   
+        margin: auto;
+        border: 2px blue solid;
+    }
+
+    .headline-banner .botao-banner {
+        border: 3px cyan solid;
+        background-color: #1796CE;
+        border-radius: 2vw;
+        padding: 2vw 2vw;
+        line-height: 1vw;
+        margin-top: 1.5vw;
+    }
+
+    .img-banner img {
+        margin: 0 auto;
+        width: 60%;
+        height: auto;
+    }
+
+    .fundo-carrossel {
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .headline {
+        z-index:3;
+    }
+
+    .headline h1{
+        z-index:3;
+    }
+
+    .botao-contato {
+        /* Formatação especial do botão de contato */
+        background: #1796CE;
+        border-radius: 1vw;
+        padding: 0 1.5vw;
+        /* Respiro para o texto */
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .link-carrossel:link{
+        text-decoration: none;
+    }
+
+    .botao-orcamento{
+        border-radius: 10px;
+    }
+
+/* SERVIÇOS FORMATAÇÃO */
+
+
+    .servicos-itens {
+        margin: 5vw 0;
+    }
+
+    .servicos-itens .txt-servicos {
+        width: 40%;
+        font-size: 3vw;
+        font-weight: 300;
+    }
+
+    .servicos .img-servicos {
+        width: 60%;
+    }
+
+    .img-servicos img {
+        width: 70%;
+    }
+
+    .botao-orcamento {
+        background: #1796CE;
+    }
+
+/* SOBRE NOS FORMATAÇÃO */
+    .sobre-nos {
+        width: 100%;
+        z-index: 1;
+        background-color: #093A4F;
+        padding: 7% 0;
+    }
+
+    .texto-sobre-nos {
+        z-index: 3;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-sobre-nos h2 {
+        margin: 5.5% 0 0 0;
+    }
+
+    .link-orcamento {
+        display:none;
+    }
+
+/* FORMATAÇÃO FOOTER */
+    footer {
+        padding: 5.5% 0;
+    }
+
+    .link-redes img {
+        width: 9%;
+    }
+
+@media screen and (max-width:768px){
+    .link-redes {
+        margin-top: 1.5vw;
+    }
+
+    span {
+        font-size: 2.7vw !important;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+
+    }
+    
+    span {
+        font-size: 2.7vw !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    h2 {
+        font-size: 4vw !important;
+    }
+
+    span {
+        font-size: 3vw !important;
+        line-height: -0.5vw;
+    }
+
+    .txt-servicos {
+        width: 100vw !important;
+    }
+
+    .img-servicos {
+        display: none;
+    }
+
+    .botao-orcamento {
+        display: none;
+    }
+
+    .link-orcamento {
+        display: inline;
+    }
+}
+
+/* FORMATAÇÃO CADASTRO */
+.main-cadastro {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    margin: 5% 20%;
+    background-color: #032733;
+    display: inline-block;  
+}
+
+div form {
+    display: inline-block;
+}
+
